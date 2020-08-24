@@ -38,10 +38,12 @@ const assertObjectsEqual = function(object1, object2) {
     return (console.log(`🛑🛑🛑Assertion failed: [${inspect(object1)}] !== [${inspect(object2)}]`));
   }
 };
-assertObjectsEqual({l:'1', h:'2', b:'r'},{l:'1', h:'2', b:'r'});
+
+module.exports = assertObjectsEqual;
+/*assertObjectsEqual({l:'1', h:'2', b:'r'},{l:'1', h:'2', b:'r'});
 assertObjectsEqual({l:'1', h:'2', b:'r'},{l:'1', h:'2'});
 assertObjectsEqual({l:'1', h:'2', b:'r'},{l:'1', h:'2', b:'t'});
 assertObjectsEqual({l:'1', h:'2'},{l:'1', h:'2', b:'r'});
 assertObjectsEqual({l:'4', h:'2', b:'r'},{l:'1', h:'2', b:'r'});
 assertObjectsEqual({l:'a', h:['v','t'], b:'t'},{l:'a', h:['v','t'], b:'t'});
-assertObjectsEqual({l:'a', h:['v','t'], b:'t'},{l:'a', h:['y','t'], b:'t'});
+assertObjectsEqual({l:'a', h:['v','t'], b:'t'},{l:'a', h:['y','t'], b:'t'}); */
