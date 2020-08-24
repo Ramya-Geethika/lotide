@@ -18,8 +18,10 @@ const eqArrays = function(arr1, arr2){
     return true;
   }
 }
+
+module.exports = map;
  
-const words = ["ground", "control", "to", "major", "tom"];
+/*const words = ["ground", "control", "to", "major", "tom"];
 const words1 = ["Ontario", "Quebec", "BritishColombia", "Alberta", "Manitoba", "NewBrunswick", "Newfoundland"];
 
 
@@ -41,5 +43,5 @@ console.log(assertArraysEqual(results2, ['i', 'c', 's', 't', 'o', 'u', 'u']));
 
 const results3 = map(words, word => word.length);
 console.log(results3);
-console.log(assertArraysEqual(results2, [6, 7, 2, 5, 3]));
+console.log(assertArraysEqual(results2, [6, 7, 2, 5, 3])); */
 
