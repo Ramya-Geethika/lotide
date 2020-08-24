@@ -30,12 +30,13 @@ const without = function(source, itemsToRemove){
   }
   return arr;
 };
+module.exports = without;
 
-console.log(without([1, 2, 3], [1])); 
+/*console.log(without([1, 2, 3], [1])); 
 console.log(without(["1", "2", "3"], [1, 2, "3"]) );
 console.log(without([1, 2, 3], [1,2]));
 console.log(assertArraysEqual(without([1,2,3],[1,2]),[3]));
 const words = ["hello", "world", "lighthouse"];
 without(words, ["lighthouse"]); 
-assertArraysEqual(words, ["hello", "world", "lighthouse"]);
+assertArraysEqual(words, ["hello", "world", "lighthouse"]);*/
 
